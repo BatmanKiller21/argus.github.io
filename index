@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/jpeg" href="Logo.jpeg">
+        <title>Argus Security Consultants</title>
+        <style>
+            body {
+                margin: 0;
+                font-size: 28px;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: black;
+            }
+          
+            .header {
+                background-color: black;
+                text-align: center;
+                width: 100%;
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'roboto', sans-serif;
+            }
+
+            .navbar {
+                position: sticky;
+                top: 0;
+                left: 0;
+                width: 100%;
+                background: black;
+                z-index: 9;
+            }
+
+            .nav {
+                padding: 10px 10px;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .brand-logo {
+                height: 100px;
+            }
+
+            .nav-items {
+                display: flex;
+                align-items: center;
+            }
+
+            .links-container {
+                width: 100%;
+                display: flex;
+                padding: 10px 10px;
+                justify-content: center;
+                list-style: none;
+                border-top: 1px solid #FF1616;
+                font-size: 30px;
+            }
+
+            .link {
+                text-transform: capitalize;
+                padding: 0 10px;
+                margin: 0 5px;
+                text-decoration: none;
+                color: #FF1616;
+                opacity: 0.7;
+            }
+
+            .link:hover {
+                opacity: 100%;
+                background-color: black;
+                color: white;
+            }
+
+            .links-container a.active {
+                background-color: gray;
+                color: black;
+                text-underline-offset: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            h2 {
+                color: red;
+                padding-left: 50px;
+                font-size: 30px;
+            }
+
+            h3 {
+                color: gray;
+                padding-left: 50px;
+                font-size: 25px;
+            }
+
+            p {
+                color: white;
+                padding-left: 50px;
+                padding-top: 15px;
+                font-size: 20px;
+            }
+
+            footer{
+                width: 100%;
+                height: 100px;
+            }
+
+            .flex-container1 {
+                display: flex;
+                background-color: black;
+            }
+          
+            .flex-container1 > div {
+                background-color: black;
+                color: white;
+                width: 100%;
+                text-align: center;
+                line-height: 30px;
+                font-size: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <video width="100%" autoplay muted>
+                <source src="CONSULTING.mp4" type="video/mp4">
+            </video>
+        </div>
+        <nav class="navbar">
+            <ul class="links-container">
+                <li class="link-item"><a class="active" href="Home.html" class="link">Home</a></li>
+                <li class="link-item"><a href="About.html" class="link">About</a></li>
+                <li class="link-item"><a href="Services.html" class="link">Services</a></li>
+                <li class="link-item"><a href="Training.html" class="link">Training</a></li>
+                <li class="link-item"><a href="contact.html" class="link">Contact</a></li>
+            </ul>
+        </nav>
+        <br>
+        <h2>Who are we</h2>
+        <h3>Argus is devoted to keeping you safe no matter what</h3>
+        <p>Based in South Africa but our team is from across the globe. We aim to provide complete safety and security across all aspects.</p>
+        <br>
+        <p>Our team consists of highly trained agents in multiple aspects of security and military. no matter your needs we have an agent for you.</p>
+        <br>
+        <div class="add">
+            <video width="100%" autoplay muted>
+                <source src="Advantage.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="banner">
+            <video width="100%" autoplay muted>
+                <source src="Banner.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="banner">
+            <video width="100%" autoplay muted>
+                <source src="Footer.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="footer">
+            <div class="flex-container1">
+              <div style="flex-grow: 1;">
+                &copy;Copyright by Argus Consulting pty (LTD) 2024
+              </div>
+            </div>
+        </div>
+    </body>
+</html>
